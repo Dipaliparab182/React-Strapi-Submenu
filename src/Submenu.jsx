@@ -1,4 +1,4 @@
-import { useGlobalContext } from './context'
+import { useGlobalContext } from './Context'
 import sublinks from './data'
 const Submenu = () => {
   const { pageId } = useGlobalContext()
